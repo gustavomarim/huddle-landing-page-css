@@ -1,0 +1,51 @@
+.introduction h1 {
+    text-align    : center;
+    padding-bottom: 20px;
+}
+
+.introduction p {
+    text-align    : center;
+    padding-bottom: 40px;
+    line-height   : 1.4;
+}
+
+.introduction-button {
+    display        : flex;
+    justify-content: center;
+    padding-bottom : 60px;
+}
+
+.introduction-button a {
+    border        : 2px solid var(--light-pink);
+    border-radius : 50px;
+    padding       : 15px 70px;
+    text-transform: capitalize;
+    color         : #fff;
+    background    : var(--light-pink);
+}
+
+.introduction-image {
+    display        : flex;
+    justify-content: center;
+    padding-bottom : 60px;
+}
+
+.introduction-params {
+    display        : flex;
+    justify-content: space-around;
+    padding-bottom : 60px;
+}
+
+.community-counter img {
+    height: 30px;
+}
+
+.introduction-params p {
+    font-size: 1rem;
+    color    : var(--gray);
+}
+
+.introduction-counter {
+    color: var(--very-dark-cyan);
+    font-size: 5rem;
+}

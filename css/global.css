@@ -1,0 +1,50 @@
+body,
+h1,
+h2,
+p,
+a,
+li {
+    margin : 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display  : block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /* ## Colors */
+
+    /* ### Primary */
+    --pink      : hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red : hsl(0, 100%, 63%);
+    --gray      : #878787;
+
+    /* ### Neutral */
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --very-pale-blue: hsl(207, 100%, 98%);
+}
+
+/* CONTAINER */
+.container {
+    max-width    : 1200px;
+    padding-left : 20px;
+    padding-right: 20px;
+    box-sizing   : border-box;
+    margin-left  : auto;
+    margin-right : auto;
+}
