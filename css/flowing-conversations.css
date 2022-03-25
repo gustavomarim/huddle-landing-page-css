@@ -1,0 +1,34 @@
+.flowing-conversations {
+    max-width                  : 100%;
+    margin                     : 0 auto;
+    padding                    : 15px 0;
+    /* justify-content         : space-around; */
+    align-items                : center;
+    padding-top                : 80px;
+    padding-bottom             : 140px;
+}
+
+.flowing-containter {
+    display            : flex;
+    justify-content    : center;
+    align-items        : center;
+    /* background-color: #F6FBFF; */
+    padding            : 60px 0;
+}
+
+.flowing-content p {
+    max-width  : 60ch;
+    line-height: 1.4;
+}
+
+.flowing-image {
+    display     : flex;
+    justify-self: center;
+    height      : 600px;
+    width       : 600px;
+}
+
+.flowing-image img {
+    justify-content: center;
+    align-content  : center;
+}
