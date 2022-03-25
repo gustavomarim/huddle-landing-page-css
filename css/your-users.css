@@ -1,0 +1,39 @@
+.your-users {
+    /* display              : flex; */
+    max-width                  : 100%;
+    margin                     : 0 auto;
+    padding                    : 15px 0;
+    /* justify-content         : space-around; */
+    align-items                : center;
+    padding-top                : 80px;
+    padding-bottom             : 140px;
+}
+
+.your-bg-top img {
+    width: 100vw;
+}
+
+.your-users-container {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: #F6FBFF;
+    padding         : 60px 0;
+}
+
+.your-users-content p {
+    max-width  : 60ch;
+    line-height: 1.4;
+}
+
+.your-users-image {
+    display     : flex;
+    justify-self: center;
+    height      : 600px;
+    width       : 600px;
+}
+
+.your-users-image img {
+    justify-content: center;
+    align-content  : center;
+}
