@@ -6,11 +6,17 @@
 /* Introduction */
 @import "./introduction.css";
 
-/* grow-together */
+/* Grow Together */
 @import "./grow-together.css";
 
-/* flowing-conversations */
+/* Flowing Conversations */
 @import "./flowing-conversations.css";
 
-/* your-users */
+/* Your Users */
 @import "./your-users.css";
+
+/* Read to build */
+@import "./ready-to-build.css";
+
+/* Footer */
+@import "./footer.css";

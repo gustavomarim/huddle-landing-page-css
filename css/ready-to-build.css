@@ -1,0 +1,30 @@
+.ready-to-build {
+    max-width                  : 100%;
+    margin                     : 0 auto;
+    padding                    : 15px 0;
+    /* justify-content         : space-around; */
+    align-items                : center;
+    padding-top                : 80px;
+    padding-bottom             : 140px;
+}
+
+.ready-container {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    padding        : 60px 0;
+}
+
+.ready-container h1 {
+    margin-bottom: 80px;
+}
+
+.button {
+    border        : 2px solid var(--pink);
+    border-radius : 50px;
+    padding       : 15px 70px;
+    text-transform: capitalize;
+    color         : #fff;
+    background    : var(--pink);
+}
