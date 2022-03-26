@@ -1,24 +1,26 @@
 .flowing-conversations {
-    max-width                  : 100%;
-    margin                     : 0 auto;
-    padding                    : 15px 0;
-    /* justify-content         : space-around; */
-    align-items                : center;
-    padding-top                : 80px;
-    padding-bottom             : 140px;
+    max-width  : 100%;
+    margin     : 0 auto;
+    align-items: center;
 }
 
 .flowing-containter {
-    display            : flex;
-    justify-content    : center;
-    align-items        : center;
-    /* background-color: #F6FBFF; */
-    padding            : 60px 0;
+    padding-top    : 100px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    gap            : 80px;
+}
+
+.flowing-content h1 {
+    font-size    : 2rem;
+    margin-bottom: 20px;
 }
 
 .flowing-content p {
     max-width  : 60ch;
     line-height: 1.4;
+    font-size  : 1rem;
 }
 
 .flowing-image {

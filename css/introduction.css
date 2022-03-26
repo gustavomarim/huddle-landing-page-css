@@ -1,6 +1,8 @@
 .introduction h1 {
     text-align    : center;
     padding-bottom: 20px;
+    font-size     : 3.2em;
+    letter-spacing: 3px;
 }
 
 .introduction p {
@@ -15,19 +17,26 @@
     padding-bottom : 100px;
 }
 
-.introduction-button a {
-    border        : 2px solid var(--light-pink);
+.button {
+    border        : 2px solid var(--pink);
     border-radius : 50px;
     padding       : 15px 70px;
     text-transform: capitalize;
     color         : #fff;
-    background    : var(--light-pink);
+    font-family   : "Open Sans", sans-serif;
+    font-weight   : 600;
+    background    : var(--pink);
+}
+
+.button:hover {
+    background: var(--light-pink);
+    border    : 2px solid var(--light-pink);
 }
 
 .introduction-image {
     display        : flex;
     justify-content: center;
-    padding-bottom  : 100px;
+    padding-bottom : 100px;
 }
 
 .introduction-params {
@@ -40,8 +49,13 @@
     height: 30px;
 }
 
+.community-counter span {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
 .introduction-params p {
-    font-size: 1rem;
+    font-size: 1em;
     color    : var(--gray);
 }
 

@@ -1,12 +1,10 @@
 .your-users {
-    /* display              : flex; */
-    max-width                  : 100%;
-    margin                     : 0 auto;
-    padding                    : 15px 0;
-    /* justify-content         : space-around; */
-    align-items                : center;
-    padding-top                : 80px;
-    padding-bottom             : 140px;
+    max-width     : 100%;
+    margin        : 0 auto;
+    padding       : 15px 0;
+    align-items   : center;
+    padding-top   : 80px;
+    padding-bottom: 140px;
 }
 
 .your-bg-top img {
@@ -18,7 +16,13 @@
     justify-content : center;
     align-items     : center;
     background-color: #F6FBFF;
-    padding         : 60px 0;
+    padding         : 80px 0;
+    gap             : 120px;
+}
+
+.your-users-content h1 {
+    font-size     : 2rem;
+    padding-bottom: 20px;
 }
 
 .your-users-content p {
