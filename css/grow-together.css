@@ -8,12 +8,17 @@
     width: 100vw;
 }
 
+.grow-bg-top-responsive {
+    width  : 100vw;
+    display: none;
+}
+
 .grow-container {
     display         : flex;
     justify-content : center;
     align-items     : center;
     background-color: #F6FBFF;
-    padding         : 60px 0;
+    padding         : 60px 40px;
     gap             : 60px;
 }
 
@@ -38,4 +43,46 @@
 .grow-together-image img {
     justify-content: center;
     align-content  : center;
+}
+
+@media(max-width: 780px) {
+    .grow-container {
+        flex-direction : column;
+        align-items    : center;
+        justify-content: center;
+        padding        : 40px;
+        padding-top    : 80px;
+    }
+
+    .grow-together-content {
+        order: 1;
+    }
+
+    .grow-together-image {
+        margin-bottom: 80px;
+    }
+
+    .grow-together-content h1,
+    p {
+        text-align: center;
+    }
+
+    .grow-together-content p {
+        font-size    : 1.25rem;
+        margin-bottom: 80px;
+    }
+
+    .grow-bg-top {
+        display: none;
+    }
+
+    .grow-bg-top-responsive {
+        display: block;
+    }
+}
+
+@media(max-width: 650px) {
+    .grow-together-image {
+        display: none;
+    }
 }

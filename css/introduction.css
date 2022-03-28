@@ -1,3 +1,7 @@
+.introduction {
+    margin: 0 40px;
+}
+
 .introduction h1 {
     text-align    : center;
     padding-bottom: 20px;
@@ -7,6 +11,7 @@
 
 .introduction p {
     text-align    : center;
+    font-size     : 1rem;
     padding-bottom: 40px;
     line-height   : 1.4;
 }
@@ -62,4 +67,29 @@
 .introduction-counter {
     color    : var(--very-dark-cyan);
     font-size: 5rem;
+}
+
+@media(max-width: 780px) {
+    .introduction h1 {
+        padding-bottom: 80px;
+        letter-spacing: normal;
+    }
+
+    .introduction p {
+        font-size     : 1.25rem;
+        padding-bottom: 80px;
+        text-align    : center;
+    }
+
+    .introduction-button {
+        margin-bottom: 80px;
+    }
+}
+
+@media(max-width: 650px) {
+    .introduction-params {
+        flex-direction : column;
+        justify-content: center;
+        align-items    : center;
+    }
 }
