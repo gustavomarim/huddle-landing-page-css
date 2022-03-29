@@ -16,8 +16,9 @@
     display        : flex;
     justify-content: space-around;
     align-items    : flex-start;
-    padding        : 60px 0;
+    padding        : 60px 20px;
     background     : var(--very-dark-cyan);
+    gap            : 30px;
 }
 
 .footer-contact img {
@@ -28,8 +29,9 @@
     max-width    : 50ch;
     font-size    : 1rem;
     line-height  : 1.4;
-    color        : #fff;
+    text-align   : left;
     margin-bottom: 30px;
+    color        : #fff;
 }
 
 .footer-contact ul {
@@ -80,9 +82,10 @@
     font-family  : "Open sans", sans-serif;
     font-weight  : 400;
     line-height  : 1.4;
+    text-align   : left;
     max-width    : 50ch;
-    color        : #fff;
     margin-bottom: 30px;
+    color        : #fff;
 }
 
 form {
@@ -91,7 +94,7 @@ form {
 }
 
 form input {
-    width        : 40vh;
+    width        : 60%;
     height       : 50px;
     border-radius: 6px;
     border       : none;
@@ -106,7 +109,7 @@ input:focus {
 }
 
 button {
-    width         : 15vh;
+    width         : 40%;
     height        : 50px;
     border-radius : 6px;
     padding       : 0 15px;
@@ -123,4 +126,73 @@ button {
 
 button:hover {
     background: var(--light-pink);
+}
+
+@media(max-width: 750px) {
+    .footer-container {
+        flex-direction: column;
+        padding       : 20px;
+        gap           : 80px;
+    }
+
+    .footer-newsletter {
+        order      : 0;
+        padding-top: 60px;
+        padding    : 60px 20px 20px 20px;
+    }
+
+    .footer-contact {
+        order  : 1;
+        padding: 60px 20px 20px 20px;
+    }
+
+    .footer-contact img {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 360px) {
+    .footer-newsletter form {
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    .footer-newsletter form input {
+        width: 100%;
+    }
+
+    .footer-newsletter form button {
+        width     : 50%;
+        align-self: flex-end;
+    }
+
+    .h1-newsletter {
+        font-size    : 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .p-newsletter {
+        font-size  : 1rem;
+        line-height: 1.6;
+    }
+
+    .h1-newsletter,
+    .p-newsletter {
+        text-align: start;
+    }
+
+    .footer-contact {
+        order: 1;
+    }
+
+    .p-contact {
+        text-align : start;
+        font-size  : 1rem;
+        line-height: 1.6;
+    }
+
+    .footer-contact img {
+        width: 200px;
+
+    }
 }

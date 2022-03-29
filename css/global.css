@@ -40,16 +40,6 @@ img {
     --very-pale-blue: hsl(207, 100%, 98%);
 }
 
-/* CONTAINER */
-.container {
-    max-width    : 1200px;
-    padding-left : 20px;
-    padding-right: 20px;
-    box-sizing   : border-box;
-    margin-left  : auto;
-    margin-right : auto;
-}
-
 h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;

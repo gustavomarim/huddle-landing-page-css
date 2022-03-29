@@ -18,7 +18,7 @@
     justify-content : center;
     align-items     : center;
     background-color: #F6FBFF;
-    padding         : 60px 40px;
+    padding         : 60px;
     gap             : 60px;
 }
 
@@ -47,11 +47,11 @@
 
 @media(max-width: 780px) {
     .grow-container {
-        flex-direction : column;
-        align-items    : center;
-        justify-content: center;
-        padding        : 40px;
-        padding-top    : 80px;
+        flex-direction    : column;
+        align-items       : center;
+        justify-content   : center;
+        /* padding        : 40px; */
+        padding-top       : 80px;
     }
 
     .grow-together-content {
