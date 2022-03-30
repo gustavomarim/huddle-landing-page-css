@@ -29,7 +29,7 @@
 
 @media(max-width: 780px) {
     .menu {
-        padding-bottom: 200px;
+        padding-bottom: 80px;
     }
 }
 
@@ -50,7 +50,7 @@
     }
 
     .menu {
-        align-items    : right;
-        justify-content: right;
+        align-items    : center;
+        justify-content: center;
     }
 }

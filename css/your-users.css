@@ -16,8 +16,12 @@
     justify-content : center;
     align-items     : center;
     background-color: #F6FBFF;
-    padding         : 80px 0;
+    padding         : 80px 60px;
     gap             : 120px;
+}
+
+.your-bg-top-responsive {
+    display: none;
 }
 
 .your-users-content h1 {
@@ -28,6 +32,7 @@
 .your-users-content p {
     max-width  : 60ch;
     line-height: 1.4;
+    font-size  : 1.25rem;
 }
 
 .your-users-image {
@@ -40,4 +45,58 @@
 .your-users-image img {
     justify-content: center;
     align-content  : center;
+}
+
+@media(max-width: 750px) {
+    .your-users-container {
+        flex-direction : column;
+        align-items    : center;
+        justify-content: center;
+        padding-top    : 80px;
+    }
+
+    .your-bg-top-responsive {
+        display: block;
+        width  : 100vw;
+    }
+
+    .your-bg-top-responsive img {
+        width: 100vw;
+    }
+
+    .your-bg-top {
+        display: none;
+    }
+
+    .your-users-image {
+        order: 0;
+    }
+
+    .your-users-content {
+        order      : 1;
+        padding-top: 60px;
+    }
+
+    .your-users-content p,
+    h1 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 650px) {
+    .your-users-image {
+        display: none;
+    }
+
+    .flowing-content p {
+        max-width: 50ch;
+    }
+}
+
+@media(max-width: 360px) {
+
+    .your-users-content p,
+    h1 {
+        text-align: left;
+    }
 }

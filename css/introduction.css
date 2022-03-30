@@ -47,7 +47,7 @@
 .introduction-params {
     display        : flex;
     justify-content: space-around;
-    padding-bottom : 100px;
+    padding-bottom : 80px;
 }
 
 .community-counter img {
@@ -91,5 +91,18 @@
         flex-direction : column;
         justify-content: center;
         align-items    : center;
+    }
+}
+
+@media(max-width: 370px) {
+    .introduction h1 {
+        font-size  : 2.5rem;
+        text-align : left;
+        line-height: normal;
+    }
+
+    .introduction p {
+        font-size : 1.25rem;
+        text-align: left;
     }
 }
