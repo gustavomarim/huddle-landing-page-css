@@ -40,8 +40,7 @@
         flex-direction : column;
         align-items    : center;
         justify-content: center;
-        padding-top    : 300px;
-        padding-bottom : 300px;
+        padding        : 300px 0;
     }
 
     .flowing-content {
@@ -60,15 +59,16 @@
 }
 
 @media(max-width: 650px) {
+    .flowing-containter {
+        padding: 60px;
+    }
+
     .flowing-image {
         display: none;
     }
 }
 
 @media(max-width: 360px) {
-    .flowing-containter {
-        padding: 60px;
-    }
 
     .flowing-content h1,
     p {
